@@ -5,7 +5,7 @@ Interactive Power BI dashboard analyzing a 1,470-employee HR dataset to visualiz
 ## Dashboard Preview
 
 
-(screenshot 2026-07-24 08525.png)
+(https://github.com/sasidhar31237-arch/Powerbi-hr-attrition-dashboard/blob/main/Screenshot%202026-07-24%20085252.png)
 
 
 
