@@ -16,6 +16,13 @@ Interactive Power BI dashboard analyzing a 1,470-employee HR dataset to visualiz
 - Matrix (cross-tab): Attrition rate by department and job role
 - Interactive slicers: Department and Gender (hierarchical filtering)
 
+##DAX Measure Used
+  Attrition Rate = DIVIDE(
+  CALCULATE(COUNTROWS('WA_Fn-UseC_-HR-Employee-Attrition'), 'WA_Fn-UseC_-HR-Employee-Attrition'[Attrition] = "Yes"),
+   COUNTROWS('WA_Fn-UseC_-HR-Employee-Attrition')
+)
+
+
 ## Techniques Used
 - DAX measures (CALCULATE, DIVIDE, COUNTROWS) for dynamic attrition rate calculation
 - Matrix visual for multi-dimensional analysis
